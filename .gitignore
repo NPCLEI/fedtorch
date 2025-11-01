@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+models/__pycache__
+
+utils/__pycache__
+
+datasets/
+
+trained_models/
+
+highD-dataset-v1.0/
+
+NGSIM_Extracted/
