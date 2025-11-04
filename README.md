@@ -46,6 +46,6 @@ Example (from `experiments/MNIST/run.py`):
 ```python
 ps = [0.01, 0.05, 0.1]
 commands = [
-    (VisPrc, f'.p -server_arguments --participation_rate_or_num .{p}') for p in ps
+    (FedADAM, f'.p -server_arguments --participation_rate_or_num .{p}') for p in ps
 ]
 
