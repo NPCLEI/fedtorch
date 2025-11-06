@@ -3,6 +3,8 @@ A federated learning optimization framework. The framework consists of the follo
 
     The running examples are located in the experiments directory. Simply configure the appropriate parameters in the libs file and run experiments/CIFAR100/A0d01C100/run.py.
 
+![alt text](img.png)
+
 This framework's key feature is its ability to utilize multiple GPUs while Python 3.13 unlocks thread locks, and to virtualize a single GPU into multiple GPUs for use! This means the framework taps into Python's true multithreading potential, significantly boosting training speed.
 
 For example : experiments/\<specific task>/\<A: dirichlet alpha C: Clinets Num>/config.py:
